@@ -1,0 +1,11 @@
+body{
+  overflow-x: hidden;
+  
+  font-family: 'Roboto Flex', sans-serif;
+}
+.App{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+}

@@ -1,0 +1,372 @@
+.leftbar{
+    width: 15vw;
+    height: 100vh;
+    background-color: black;
+   margin: -1.1vh 0 0 -1vw;
+   position: fixed;
+   
+}
+.avatar-area{
+    width: 15vw;
+    height: 10vh;
+    padding-top: 4vh;
+}
+.img-area{
+    width: 4vw;
+    height: 8vh;
+    margin: 0vh 0 0 2vw;
+    border-radius: 50%;
+    float: left;
+}
+.img-area img{
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50%;
+}
+.userNameStatus{
+    width: 7vw;
+    height: 8vh;
+    margin: 0.5vh 0 0 6.5vw;
+    border: 1px solid black;
+    color: white;
+}
+.userName{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0vh 0 0 0;
+    
+}
+.status{
+    font-size: 10px;
+    margin: -2vh 0 0 0;
+    font-weight: 200;
+}
+
+.statusDot{
+    width: 0.5vw;
+    height: 1vh;
+    border-radius: 50%;
+    background-color: #29E01F;
+    float: left;
+    margin: 0.2vh 0.5vw 0 0;
+}
+.optionsArea{
+    width: 15vw;
+    height: 70vh;
+    padding: 1vh 1.2vw;
+    padding-top: 2vh;
+}
+.option{
+    width: 12vw;
+    height: 6vh;
+    margin: 2vh 0 2vh 0;
+   display: flex;
+   cursor: pointer;
+    
+}
+.icon-space{
+    width: 2vw;
+    height: 4vh;
+    /* border: 1px solid white; */
+    color: white;
+    margin: 1vh 0 2vw 1vw;
+    
+    
+    
+}
+.option p{
+    font-weight: 400;
+    color: white;
+    margin: 1.5vh 0 0 1.5vw;
+}
+.optionsArea :hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+
+    .icon-space{
+        color: black;
+    }
+    .abc{
+        color: black;
+    }
+}
+
+.page{
+    width: 85vw;
+    height: 120vh;
+    margin: -1.1vh 0 0 14vw;
+    background-color: #F5F5F5;
+    
+    /* display: inline; */
+
+}
+.card{
+    width: 25vw;
+    height: 35vh;
+    margin: 3vh 0 0 1.5vw;
+    float: left;
+    padding-top: 1vh;
+}
+.card h2{
+    margin: 0 0 1vh 1vw;
+}
+.card img{
+    width: 25vw;
+    height: 30vh;
+}
+.advertisement{
+    width: 55vw;
+    height: 28.5vh;
+   background-color: white;
+    margin: 9vh 0 0 28vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 1vh;
+    background-image: url('../images/bg-ad.jpg');
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 15px;
+}
+.ad-details{
+    width: 28vw;
+    height: 25vh;
+    margin: 0 0 0 2vw;
+    float: left;
+}
+.ad-details h1{
+    font-size: 45px;
+}
+.ad-details button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 6vw;
+    height: 5vh;
+}
+.advertisement img{
+    width: 25vw;
+    height: 35.5vh;
+    margin-top: -7vh;
+}
+.transaction-table{
+    width: 25vw;
+    height: 71vh;
+   background-color: white;
+    margin: 3vh 0 0 1.5vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 1vh;   
+}
+.transaction-table h5{
+    margin: -5vh 0 0 21vw;
+}
+.transaction-table h3{
+    margin: 0.6vh 0 0 1vw;
+}
+.tt-row{
+    width: 23vw;
+    height: 8vh;
+    margin: 2vh 0 0 1vw;
+    display: flex;
+    border-bottom: 0.5px solid lightgrey  ;
+}
+.icon{
+    width: 4vw;
+    height: 8vh;
+}
+.icon img{
+    width: 2.5vw;
+    height: 5vh;
+    margin: 1.5vh 0 0 0.75vw;
+}
+.name-type{
+    width: 14vw;
+    height: 8vh;
+   
+    margin: 0 0 0 1vw;
+    gap: 0;
+}
+.name-type h5{
+    margin: 1.5vh 0 0 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.name-type span{
+    color: grey;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.amount-time{
+    width: 5vw;
+    height: 8vh;
+    text-align: center;
+    gap: 0;
+}
+.amount-time h5{
+    margin: 1.5vh 0 0 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.amount-time span{
+    font-size: 10px;
+    font-weight: 500;
+    margin: 0 0 0 1vw;color: grey;
+    
+}
+.transfer{
+    width: 27vw;
+    height: 22vh;
+   background-color: white;
+    margin: -72vh 0 0 28vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 1vh;
+}
+.transfer h3{
+    margin: 0.5vh 0 0 1vw;
+}
+.box{
+    width: 20vw;
+    height: 6vh;
+    border: 1px solid grey;
+    margin: 3vh 0 0 0.5vw;
+    border-radius: 10px;
+    color: black;
+    float: left;
+}
+.box p{
+    margin: 1.5vh 0 0 1vw;
+    float: left;
+}
+.box-icon-footer{
+    width: 24vw;
+    height: 14vh;
+    margin: 1vh 0 0 1vw;
+    padding: 2px;
+}
+.transfer-footer{
+    margin: 0 0 0 4vw;
+    color: grey;
+    font-size: 500;
+    font-size: 12px;
+}
+.box img{
+    width: 3vw;
+    height: 6vh;
+    margin: 0 0 0 5vw;
+}
+.rightArrow{
+    width: 3vw;
+    height: 5vh;
+    margin: 2.5vh 0 0 21vw;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+}
+.MuiSvgIcon-root{
+    margin: -0.3vh 0 0 0.1vw;
+}
+.transfer-icon{
+    width: 3vw;
+    height: 5vh;
+    margin: -0.5vh 0 0 0;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+}
+.conversion{
+    width: 27vw;
+    height: 22vh;
+   background-color: #F5F5F5;
+    margin: -23vh 0 0 56vw;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 1vh;
+}
+.conversion h3{
+    margin:0vh 0 1.5vh 2.8vw;
+}
+.conversion h5{
+    margin: 1.5vh 0 0 2.8vw;
+}
+.conversion-icon{
+    width: 3vw;
+    height: 4.5vh;
+    margin: -7vh 0 0 0;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    padding-top: 0.5vh;
+}
+.amount{
+    width: 27vw;
+    height: 14vh;
+    margin: 0 0 0 0vw;
+}
+.graph{
+    width: 35vw;
+    height: 46vh;
+   background-color: white;
+    margin: 2vh 0 0 28vw;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 1vh;
+}
+.graph h3{
+    margin: 0 0 2vh 1vw;
+}
+.investment{
+    width: 19vw;
+    height: 46vh;
+   background-color: white;
+    margin: 2vh 0 0 64vw;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 1vh;
+}
+.investment h3{
+    margin: 0 0 2vh 1vw;
+}
+.investment h5{
+    margin: -5.5vh 0 0 15.5vw;
+}
+.it-row{
+    width: 17vw;
+    height: 8vh;
+    margin: 2vh 0 0 0.5vw;
+    display: flex;
+    border-bottom: 0.5px solid lightgrey  ;
+}
+.name-investment{
+    width: 14vw;
+    height: 3.5vh;
+    margin: 02vh 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.name-investment h4{
+    margin: 0.5vh 0 1vh 0vw;
+    float: left;
+}
+.currency{
+    width: 20vw;
+    height: 4vh ;
+    margin: 1vh 0 0 3vw;
+    display: flex;
+    float: left;
+}
+.currency input{
+    width: 25vw;
+    border-radius: 10px;
+    border: none;
+}
+.currency select{
+    float: left;
+    width: 10vw;
+    border-radius: 10px;
+    margin: 0 0 0 1vw;
+    border: none;
+}
+.line-graph{
+    width: 33vw;
+    height: 40vh;
+}
